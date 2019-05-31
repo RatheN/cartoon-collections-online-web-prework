@@ -21,6 +21,6 @@ def find_the_cheese(snacks)# code an argument here
   if snacks.include?(cheese_types) == true
     snacks.find do |s|
       s == cheese_types
-
+    end
   end
 end
