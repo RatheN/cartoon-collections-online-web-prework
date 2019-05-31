@@ -8,7 +8,7 @@ end
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
   veggies.collect do |call|
-    call.upper
+    call.capitalize
     call << ("!")
   end
 end
